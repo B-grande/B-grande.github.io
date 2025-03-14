@@ -1,0 +1,23 @@
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+/* Apple-like styles */
+body {
+    font-family:
+        "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Improve animation performance */
+.backdrop-blur-sm {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+/* Subtle transitions */
+a,
+button {
+    transition: all 0.2s ease-out;
+}
